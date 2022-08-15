@@ -1,0 +1,29 @@
+.navbar {
+    color: #3c8dbc;
+    background-color: rgba(49, 130, 176, 0.9) !important;
+}
+
+.navbar li a {
+    color: white !important;
+}
+
+.navbar li a:hover {
+    color: black !important;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+#weatherbox {
+    width: 165px;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

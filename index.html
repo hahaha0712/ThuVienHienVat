@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sở khoa học và Công nghệ tỉnh Nam Định</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="jQuery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="Api3D.js"></script>
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-branch" href="#">
+                <img src="./images/logo.png" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BẢN ĐỒ DI SẢN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DANH MỤC DI SẢN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THƯ VIỆN HIỆN VẬT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THƯ VIỆN VIDEO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LIÊN HỆ</a>
+                    </li>
+                    <li class="dropdown language">
+                        <a href="/Languages/vi" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="./images/vietnam.png"> Tiếng Việt <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="/en"><img src="./images/english.png"> English</a>
+                            </li>
+                            <li>
+                                <a href="/ru"><img src="./images/russia.png"> Pусский Язык</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="search-icon">
+                        <a href="javascript:void(0);" class="search">
+                            <i class="fa fa-search search-btn"></i>
+                        </a>
+                        <div class="search-open">
+                            <div class="input-group animated fadeInDown">
+                                <input type="text" class="form-control" placeholder="Tìm kiếm" id="txtKeyword">
+                                <span class="input-group-btn">
+                                    <a class="btn-u" id="btnSearch" data-url="/vi/ArticlesSearch">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:viewHelp('Hướng dẫn sử dụng', '/HuongDanSuDung.pdf#view=FitH');">
+                            <i class="fa fa-question-circle-o">
+                                
+                            </i>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="page-header-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header">Thư viện hiện vật
+
+                    </h2>
+                    <ol class="breadcrumb">
+                        <li><a href="/vi">Trang chủ</a>
+                        </li>
+                        <li class="active">
+                            <a href="index.html" target="">Thư viện hiện vật</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-lg-12">
+            <p></p>
+            <div class="clearfix margin-bottom-20"><hr></div>
+        </div>
+    </div>   
+    
+    <footer>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h6>Copyright © 2022. Sở khoa học và Công nghệ tỉnh Nam Định</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
